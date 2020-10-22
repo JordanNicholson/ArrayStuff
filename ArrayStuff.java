@@ -56,9 +56,9 @@ public class ArrayStuff {
 
 
         //Print all of the elements of "planets" in reverse order.
-        System.out.println(planets[7] + " "+ planets[6] + " " + planets[5] + " " 
-        + planets[4] + " " + planets[3] + " " + planets[2] + " "+ planets[1]
-        		+ " "+ planets[0]);
+        System.out.println(planets[7] + "\n"+ planets[6] + "\n" + planets[5] + "\n" 
+        + planets[4] + "\n" + planets[3] + "\n" + planets[2] + "\n"+ planets[1]
+        		+ "\n"+ planets[0]);
 
     }
 }
