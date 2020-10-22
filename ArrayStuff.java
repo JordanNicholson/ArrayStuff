@@ -30,8 +30,9 @@ public class ArrayStuff {
 
         
         // Print all of the elements of "ages", one per line
-        System.out.println(ages[0] + "\n" + ages[1] + "\n" + ages[2] + "\n" +
-        		ages[3] + "\n" + ages[4]);
+        for (int age = 0; age < 5; age++) {
+        	System.out.println(ages[age]);
+        }
 
 
 
@@ -45,7 +46,7 @@ public class ArrayStuff {
         System.out.println(planets[6].charAt(0));
 
 
-        //Change the name of our planet to be a line of text that the user inputs
+        //Change the name of our planet to be a word that the user inputs
         System.err.println("What do you want to rename Earth to be?");
         planets[2] = input.next();
 
@@ -56,9 +57,9 @@ public class ArrayStuff {
 
 
         //Print all of the elements of "planets" in reverse order.
-        System.out.println(planets[7] + "\n"+ planets[6] + "\n" + planets[5] + "\n" 
-        + planets[4] + "\n" + planets[3] + "\n" + planets[2] + "\n"+ planets[1]
-        		+ "\n"+ planets[0]);
-
+        for (int planet = 7; planet >= 0; planet--) {
+        	System.out.println(planets[planet]);
+        }
+      
     }
 }
